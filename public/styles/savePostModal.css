@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#successPopup{
+    background: rgba(4, 243, 63, 0.459);
+    color: rgb(0, 0, 0);
+    width: 300px;
+    height: 70px;
+    padding: 20px; 
+    border-radius: 10px;
+    display: none;
+    position: absolute;
+    left: 40%;
+    bottom: 0;
+}
+
+#savePostBtn{
+    width: 200px;
+    height: 30px;
+    background-color:rgba(7, 226, 255, 0.459);
+    border: 0px solid white;
+    cursor: pointer;
+    
+}
