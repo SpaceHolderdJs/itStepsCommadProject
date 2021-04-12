@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+{{> head}}
+
+<body>
+    {{#if users.length}}
+    {{#each users}}
+    <p>{{name}}, {{email}}, {{registrationDate}}</p>
+    {{/each}}
+    {{else}}
+    <p>No users</p>
+    {{/if}}
+</body>
+
+</html>
