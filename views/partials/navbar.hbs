@@ -1,0 +1,20 @@
+<nav>
+    <div class="nav-wrapper">
+        <a href="/" class="brand-logo">TODOS</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+            {{#if isMain}}
+            <li class="active"><a href="/">Main</a></li>
+            {{else }}
+            <li><a href="/">Main</a></li>
+            {{/if}}
+
+            {{#if isRegistration}}
+            <li class="active"><a href="/registration">Registration</a></li>
+            {{else }}
+            <li><a href="/registration">Registration</a></li>
+            {{/if}}
+
+            <li><a href="/login">Login</a></li>
+        </ul>
+    </div>
+</nav>

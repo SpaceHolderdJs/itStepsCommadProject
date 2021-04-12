@@ -1,0 +1,4 @@
+.wrong {
+  border-bottom: 1px solid darkred;
+  transition: 0.5s all;
+}
